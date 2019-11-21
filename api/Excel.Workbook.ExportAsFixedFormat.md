@@ -29,7 +29,7 @@ _expression_ A variable that represents a **[Workbook](Excel.Workbook.md)** obje
 |Name|Required/Optional|Data type|Description|
 |:-----|:-----|:-----|:-----|
 | _Type_|Required| **[XlFixedFormatType](excel.xlfixedformattype.md)**|Can be either **xlTypePDF** or **xlTypeXPS**.|
-| _FileName_|Optional| **Variant**|A string that indicates the name of the file to be saved. You can include a full path, or Excel saves the file in the current folder.|
+| _FileName_|Optional| **Variant**|A string that indicates the name of the file to be saved. You can include a full path, or Excel saves the file in the current folder. There is a 181 character length limit for FileName variable declaration inclusive of file path.|
 | _Quality_|Optional| **Variant**|Can be set to either of the following **[XlFixedFormatQuality](Excel.XlFixedFormatQuality.md)** constants: **xlQualityStandard** or **xlQualityMinimum**.|
 | _IncludeDocProperties_|Optional| **Variant**|Set to **True** to indicate that document properties should be included, or set to **False** to indicate that they are omitted.|
 | _IgnorePrintAreas_|Optional| **Variant**|If set to **True**, ignores any print areas set when publishing. If set to **False**, uses the print areas set when publishing.|
